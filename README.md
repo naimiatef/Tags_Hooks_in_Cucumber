@@ -13,6 +13,7 @@
 
 
 ## Remarque: 
+- @Before("@First") : c-a-d exécuter avant le test tous les scénario qui ont une tags First
 - Nous avons appris que les Hooks @Before et @After s’exécutent avant et après chaque scénario. Mais @Before(« @First ») ne fonctionnera qu’avant le premier scénario et les autres  tagged hooks. Encore une fois, ces noms de Taggs peuvent être n’importe quoi et pas besoin d’être premier, deuxième et troisième.
 
 ## Sortie
